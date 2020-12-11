@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Clean Filename]
+@=""
+
+[HKEY_CLASSES_ROOT\*\shell\Clean Filename\command]
+@="C:\\\\Windows\\\\system32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -executionpolicy bypass -windowstyle hidden -File \"C:\\scripts\\CleanFilename.ps1\" \"%L\""
